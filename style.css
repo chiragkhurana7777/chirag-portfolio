@@ -1,0 +1,130 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:white;
+color:#111;
+line-height:1.6;
+scroll-behavior:smooth;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 100px;
+}
+
+.logo{
+font-weight:700;
+font-size:20px;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#111;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:64px;
+font-weight:700;
+}
+
+.hero p{
+font-size:22px;
+color:#555;
+margin-top:10px;
+}
+
+.hero-buttons{
+margin-top:30px;
+display:flex;
+gap:20px;
+}
+
+.btn{
+background:black;
+color:white;
+padding:12px 24px;
+border-radius:8px;
+text-decoration:none;
+}
+
+.btn-outline{
+border:1px solid black;
+padding:12px 24px;
+border-radius:8px;
+text-decoration:none;
+color:black;
+}
+
+.section{
+padding:100px 200px;
+}
+
+.section h2{
+font-size:36px;
+margin-bottom:40px;
+}
+
+.flex{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+flex:1;
+min-width:220px;
+border:1px solid #eee;
+padding:30px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#777;
+}
+
+/* Dark Mode */
+
+.dark{
+background:#111;
+color:white;
+}
+
+.dark .card{
+border:1px solid #333;
+}
+
+.dark .btn-outline{
+border:1px solid white;
+color:white;
+}
